@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class HazavaoController {
 
-  @Value("${OPEN_API_KEY}")
+  @Value("${OPEN_API_KEY:fake-api}")
   private String apiKey;
 
   @GetMapping("/hazavao")
