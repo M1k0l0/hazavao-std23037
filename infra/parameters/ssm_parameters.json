@@ -1,7 +1,7 @@
 [
   {
-    "name": "/${stage}/OPEN_API_KEY",
-    "value": "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",
+    "name": "OPEN_API_KEY",
+    "value": "api key",
     "type": "String"
   }
 ]
